@@ -51,3 +51,4 @@ LivestockGuard AI centralizes livestock monitoring for Antimicrobial Usage (AMU)
 - The backend includes API routes for auth, farms, animals, treatments, analytics, blockchain, reporting, notifications, and QR verification.
 - The frontend includes landing page, dashboards, portals, and mobile-ready components.
 # LivestockGuard
+"# LivestockGuard" 
