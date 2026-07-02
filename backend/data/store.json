@@ -1,0 +1,324 @@
+{
+  "users": [
+    {
+      "id": "demo-user",
+      "name": "Demo Farmer",
+      "email": "demo@livestockguard.ai",
+      "password": "$2a$10$HxChuDUHix6toB8IK0sreevg.H0KeDwJdHdKFY8J9WP7LgwynkYeC",
+      "role": "farmer",
+      "verified": true,
+      "created_at": "2026-06-26T13:26:55.524Z"
+    },
+    {
+      "id": "513d2ef3-2cc5-4fdc-a5ef-b3dd9d334a2b",
+      "name": "Demo Farmer",
+      "email": "demo+1782572115404@livestockguard.ai",
+      "password": "$2a$10$cMlY9ABcH/JfMdzVjFbqhu1YydYSjAx3UcCsLxFUaeKWTVJQ7kAfm",
+      "role": "farmer",
+      "verified": true
+    },
+    {
+      "id": "3d58108b-e654-422b-87de-5f281ec7261e",
+      "name": "Demo Farmer",
+      "email": "demo+1782661802341@livestockguard.ai",
+      "password": "$2a$10$adJ7kHs4wM36I6URgl.jKus9LqxYIFbHbR0GkjJHj.YxAo9gXkjeS",
+      "role": "farmer",
+      "verified": true
+    },
+    {
+      "id": "d54c4b20-3b73-4b29-8ee8-dda2a8081226",
+      "name": "Demo Farmer",
+      "email": "demo+1782661829191@livestockguard.ai",
+      "password": "$2a$10$d4FwMOaxvLnn2g7jjNeBLeHCEVM3VbPre.FsIL7rzIRL9VIRbUAYW",
+      "role": "farmer",
+      "verified": true
+    },
+    {
+      "id": "59ef6677-eb56-428a-a92c-c08d41916358",
+      "name": "Demo Farmer",
+      "email": "demo+1782747454554@livestockguard.ai",
+      "password": "$2a$10$Ji0kMTP6qodqQyW/2TcxN.ZXlMtU.f7wL7O9RZdQtOsiQuN1pXTxq",
+      "role": "farmer",
+      "verified": true
+    },
+    {
+      "id": "1f2de18f-490e-469d-90a0-b2e58975aa7b",
+      "name": "Demo Farmer",
+      "email": "demo+1782747806503@livestockguard.ai",
+      "password": "$2a$10$M7xP0uol.2SAzfKqTj55JeDTVp3066ChO4l0.j6L4lhNyGW/6lTLe",
+      "role": "farmer",
+      "verified": true
+    },
+    {
+      "id": "0e4d4c4b-5822-4ca4-a246-1dba6f9c5f16",
+      "name": "Demo Farmer",
+      "email": "demo+1782963793890@livestockguard.ai",
+      "password": "$2a$10$ykT65P9cTg2GvvZVcWle0O.TouNDK95u6WnALBtGx5MPhec.7v0X6",
+      "role": "farmer",
+      "verified": true
+    }
+  ],
+  "farms": [
+    {
+      "farm_id": "farm-001",
+      "owner_id": "demo-user",
+      "farm_name": "Green Valley Farm",
+      "location": "Coimbatore",
+      "registration_number": "FG-1001",
+      "created_at": "2026-06-26T13:26:55.524Z"
+    }
+  ],
+  "animals": [
+    {
+      "animal_id": "animal-001",
+      "farm_id": "farm-001",
+      "species": "Cow",
+      "breed": "Sahiwal",
+      "age": 4,
+      "weight": "520",
+      "gender": "Female",
+      "qr_code": "QR-1782572145624",
+      "rfid_tag": "RFID-1782572145624",
+      "image_url": "",
+      "created_at": "2026-06-26T13:26:55.524Z"
+    },
+    {
+      "animal_id": "665b4896-e432-4e26-829d-0b6f47ec54f9",
+      "farm_id": "farm-001",
+      "species": "Goat",
+      "breed": "Boer",
+      "age": 2,
+      "weight": "45",
+      "gender": "Male",
+      "qr_code": "QR-TEST",
+      "rfid_tag": "RFID-TEST",
+      "image_url": ""
+    },
+    {
+      "animal_id": "c59569af-ce4c-497a-b9d2-7f9fb1a16f03",
+      "farm_id": "farm-001",
+      "species": "Cow",
+      "breed": "js",
+      "age": 4,
+      "weight": "500",
+      "gender": "Female",
+      "qr_code": "QR-1782572130809",
+      "rfid_tag": "RFID-1782572130809",
+      "image_url": ""
+    },
+    {
+      "animal_id": "25ac53b3-06ca-4330-91b7-728f89034a0b",
+      "farm_id": "farm-001",
+      "species": "Cow",
+      "breed": "js",
+      "age": 6,
+      "weight": "500",
+      "gender": "Female",
+      "qr_code": "QR-1782747516935",
+      "rfid_tag": "RFID-1782747516935",
+      "image_url": ""
+    }
+  ],
+  "veterinarians": [
+    {
+      "vet_id": "vet-001",
+      "name": "Dr. Anjali Sharma",
+      "license_number": "VET-1001",
+      "specialization": "Livestock Health",
+      "created_at": "2026-06-26T13:26:55.524Z"
+    }
+  ],
+  "treatments": [
+    {
+      "treatment_id": "treatment-001",
+      "animal_id": "animal-001",
+      "disease": "Mastitis",
+      "drug_name": "Oxytetracycline",
+      "dosage": "250mg",
+      "administration_method": "Oral",
+      "start_date": "2026-06-12",
+      "end_date": "2026-06-18",
+      "veterinarian_id": "vet-001",
+      "created_at": "2026-06-26T13:26:55.524Z"
+    },
+    {
+      "treatment_id": "2a38c4ed-6a31-4eab-bd0c-d554fccf1ae2",
+      "animal_id": "animal-001",
+      "disease": "Foot Rot",
+      "drug_name": "Amoxicillin",
+      "dosage": "200mg",
+      "administration_method": "Oral",
+      "start_date": "2026-06-20",
+      "end_date": "2026-06-24",
+      "veterinarian_id": "vet-001"
+    }
+  ],
+  "vaccinations": [
+    {
+      "vaccination_id": "vacc-001",
+      "animal_id": "animal-001",
+      "vaccine": "FMD Vaccine",
+      "scheduled_date": "2026-06-25",
+      "status": "Pending",
+      "reminder_sent": false,
+      "created_at": "2026-06-28T12:31:54.509Z"
+    }
+  ],
+  "diseasereports": [
+    {
+      "report_id": "disease-001",
+      "animal_id": "animal-001",
+      "disease": "Mastitis",
+      "severity": "Moderate",
+      "status": "Under Review",
+      "assigned_vet": "Dr. Anjali Sharma",
+      "created_at": "2026-06-28T12:31:54.509Z"
+    }
+  ],
+  "prescriptions": [],
+  "withdrawalperiods": [
+    {
+      "withdrawal_id": "wd-001",
+      "drug_name": "Oxytetracycline",
+      "days_required": 14
+    }
+  ],
+  "compliancereports": [
+    {
+      "report_id": "report-001",
+      "farm_id": "farm-001",
+      "compliance_score": 91,
+      "generated_at": "2026-06-26T13:26:55.524Z"
+    }
+  ],
+  "blockchainlogs": [],
+  "notifications": [],
+  "qrverification": [
+    {
+      "verification_id": "06aa6e27-f515-4f88-9381-aa950f40ae25",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-26T14:22:26.616Z"
+    },
+    {
+      "verification_id": "c9d40bae-34da-48ac-b636-5a48a290cd0f",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-26T14:22:26.759Z"
+    },
+    {
+      "verification_id": "8aff9c43-5f37-4934-bba2-5f1729f7644a",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-26T14:22:50.756Z"
+    },
+    {
+      "verification_id": "b933851a-9dc6-4f1f-a653-52c76eb36165",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-26T14:22:50.758Z"
+    },
+    {
+      "verification_id": "15b481b9-599c-4ad4-9651-8d822992488a",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-26T14:49:51.971Z"
+    },
+    {
+      "verification_id": "485fe098-68ee-495e-87a6-ef0613dc05cb",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-26T14:49:51.978Z"
+    },
+    {
+      "verification_id": "98e8b142-8d4f-4c53-b158-50039046c064",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-26T14:49:52.515Z"
+    },
+    {
+      "verification_id": "321e67e2-653a-4d93-9187-e8297758ac0c",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-26T14:49:52.518Z"
+    },
+    {
+      "verification_id": "37c418d0-1de1-4454-badc-7a7acf9ad989",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-26T14:59:00.874Z"
+    },
+    {
+      "verification_id": "1d90144c-63e7-43c3-8a8e-c8b00191cd87",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-26T14:59:00.877Z"
+    },
+    {
+      "verification_id": "27aef53f-17d7-409a-9b70-946a5a14b96b",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-26T14:59:00.942Z"
+    },
+    {
+      "verification_id": "74913d71-bada-48ed-9370-5e0e41dc7f1b",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-26T14:59:00.944Z"
+    },
+    {
+      "verification_id": "cbf73eda-33d5-4e6c-a934-ff7f50a35ec6",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-27T12:58:51.589Z"
+    },
+    {
+      "verification_id": "fc80f923-f6f8-43ae-81df-9f11a0b1ae70",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-06-27T12:58:51.593Z"
+    },
+    {
+      "verification_id": "1520d6c9-3fee-4da5-bbaa-a064ce1d0eb4",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-07-02T03:43:21.305Z"
+    },
+    {
+      "verification_id": "e4bc77c3-117c-47f0-977d-3a2bff403985",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-07-02T03:43:21.318Z"
+    },
+    {
+      "verification_id": "7748d329-7b0d-416a-be3b-ac87c86de1c1",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-07-02T03:43:25.802Z"
+    },
+    {
+      "verification_id": "6ec86be0-69f7-43fb-a264-7c2e86a99b31",
+      "animal_id": "animal-001",
+      "product_name": "SafeMilk Dairy Batch 001",
+      "verified": true,
+      "scanned_at": "2026-07-02T03:43:27.063Z"
+    }
+  ]
+}
