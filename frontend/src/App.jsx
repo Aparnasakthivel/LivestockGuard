@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
@@ -28,6 +28,12 @@ function App() {
       <Route path="/documentation" element={<DocumentPage />} />
       <Route path="/verify" element={<ConsumerVerification />} />
       <Route path="/consumer" element={<ConsumerVerification />} />
+      <Route path="/consumer-verification" element={<Navigate to="/verify" replace />} />
+      <Route path="/animals" element={<Navigate to="/dashboard/animals" replace />} />
+      <Route path="/treatments" element={<Navigate to="/dashboard/treatments" replace />} />
+      <Route path="/reports" element={<Navigate to="/dashboard/reports" replace />} />
+      <Route path="/analytics" element={<Navigate to="/dashboard/analytics" replace />} />
+      <Route path="/settings" element={<Navigate to="/dashboard/settings" replace />} />
       <Route path="/government" element={<GovernmentDashboard />} />
       <Route path="/dashboard" element={<Layout />}>
         <Route index element={<FarmerDashboard />} />
